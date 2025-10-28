@@ -6,18 +6,69 @@
   <title>قائمة الطعام - وناسة</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
-    body{margin:0;font-family:'Cairo',sans-serif;background:#000;color:#d4af37}
-    .wrap{padding:18px;text-align:right}
-    .top{display:flex;gap:12px;align-items:center;justify-content:space-between}
-    img.logo{width:100px;border-radius:8px}
-    h2{margin:6px 0}
-    .list{margin-top:14px}
-    .item{background:rgba(212,175,55,0.06);border:1px solid rgba(212,175,55,0.2);padding:12px;border-radius:10px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center}
-    .item img{width:64px;height:64px;border-radius:8px;object-fit:cover;margin-left:12px}
-    .name{font-weight:700}
-    .price{color:#f7d774;font-weight:700}
-    .back{display:inline-block;margin-top:12px;background:#d4af37;color:#000;padding:8px 14px;border-radius:10px;text-decoration:none;font-weight:700}
-    footer{margin-top:18px;font-size:13px;opacity:0.85;text-align:center}
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background: #000;
+      color: #d4af37;
+    }
+    .wrap {
+      padding: 18px;
+      text-align: right;
+    }
+    .top {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    img.logo {
+      width: 100px;
+      border-radius: 8px;
+    }
+    h2 {
+      margin: 6px 0;
+    }
+    .list {
+      margin-top: 14px;
+    }
+    .item {
+      background: rgba(212, 175, 55, 0.06);
+      border: 1px solid rgba(212, 175, 55, 0.2);
+      padding: 12px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .name {
+      font-weight: 700;
+    }
+    .desc {
+      font-size: 13px;
+      color: #f1d67d;
+    }
+    .price {
+      color: #f7d774;
+      font-weight: 700;
+    }
+    .back {
+      display: inline-block;
+      margin-top: 12px;
+      background: #d4af37;
+      color: #000;
+      padding: 8px 14px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    footer {
+      margin-top: 18px;
+      font-size: 13px;
+      opacity: 0.85;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
@@ -25,16 +76,40 @@
     <div class="top">
       <div>
         <h2>🍽️ منيو المطعم</h2>
-        <p style="margin:0;color:#f1d67d">أصناف مختارة بجودة عالية</p>
+        <p style="margin:0;color:#f1d67d">أكلات وناسة اللذيذة بجودة عالية</p>
       </div>
       <img src="images/logo.jpg" alt="logo" class="logo" />
     </div>
 
     <div class="list">
-      <div class="item"><div><div class="name">برجر لحم كلاسيك</div><div style="font-size:13px;color:#f1d67d">برجر مع جبنة وخضار</div></div><div><div class="price">20 د.ل</div><img src="images/burger.svg" alt="برجر"></div></div>
-      <div class="item"><div><div class="name">بيتزا مارجريتا</div><div style="font-size:13px;color:#f1d67d">صلصة طماطم، جبنة موزاريلا</div></div><div><div class="price">25 د.ل</div><img src="images/pizza.svg" alt="بيتزا"></div></div>
-      <div class="item"><div><div class="name">باستا كاربونارا</div><div style="font-size:13px;color:#f1d67d">طبق إيطالي غني بالكريمة</div></div><div><div class="price">22 د.ل</div><img src="images/pasta.svg" alt="باستا" style="width:64px;height:64px"></div></div>
-      <div class="item"><div><div class="name">بطاطا مقلية</div><div style="font-size:13px;color:#f1d67d">مقرمشة وساخنة</div></div><div><div class="price">10 د.ل</div><img src="images/fries.svg" alt="بطاطا"></div></div>
+      <div class="item"><div><div class="name">برغر دجاج</div></div><div class="price">10 د.ل</div></div>
+      <div class="item"><div><div class="name">همبرغر لحم</div></div><div class="price">12 د.ل</div></div>
+      <div class="item"><div><div class="name">كبدة إسكندراني (عجل وطني)</div></div><div class="price">18 د.ل</div></div>
+
+      <div class="item"><div><div class="name">باقيت كبدة جمل بموزاريلا</div></div><div class="price">18 د.ل</div></div>
+      <div class="item"><div><div class="name">باقيت كبدة دجاج بموزاريلا</div></div><div class="price">17 د.ل</div></div>
+      <div class="item"><div><div class="name">باقيت دجاج بموزاريلا</div></div><div class="price">15 د.ل</div></div>
+
+      <div class="item"><div><div class="name">إنشلادة دجاج</div><div class="desc">موزاريلا - شيدر - سلاطة مشوية - هريسة عربية - بطاطا</div></div><div class="price">17 د.ل</div></div>
+      <div class="item"><div><div class="name">ملفوف</div><div class="desc">موزاريلا - شيدر - سلاطة مشوية - هريسة عربية - بطاطا</div></div><div class="price">17 د.ل</div></div>
+      <div class="item"><div><div class="name">كلزوني</div><div class="desc">موزاريلا - شيدر - سلاطة مشوية - هريسة عربية - بطاطا</div></div><div class="price">17 د.ل</div></div>
+
+      <div class="item"><div><div class="name">سفيحة مشكلة</div><div class="desc">موزاريلا - مفروم - شيدر</div></div><div class="price">16 د.ل</div></div>
+      <div class="item"><div><div class="name">سفيحة لحم</div><div class="desc">موزاريلا - شيدر - لحم</div></div><div class="price">15 د.ل</div></div>
+      <div class="item"><div><div class="name">سفيحة جبنة</div></div><div class="price">10 د.ل</div></div>
+
+      <div class="item"><div><div class="name">بيتزا وناسة</div><div class="desc">موزاريلا - شيدر - دجاج - مفروم - تن - كبدة جمل - خضروات - زيتون</div></div><div class="price">30 د.ل</div></div>
+      <div class="item"><div><div class="name">بيتزا مارغريتا</div><div class="desc">صلصة طماطم - موزاريلا - زيتون</div></div><div class="price">15 د.ل</div></div>
+      <div class="item"><div><div class="name">بيتزا تن</div><div class="desc">صلصة طماطم - تن - موزاريلا - زيتون</div></div><div class="price">16 د.ل</div></div>
+      <div class="item"><div><div class="name">بيتزا مفروم</div><div class="desc">صلصة طماطم - مفروم - موزاريلا</div></div><div class="price">20 د.ل</div></div>
+      <div class="item"><div><div class="name">بيتزا دجاج</div><div class="desc">صلصة طماطم - دجاج - موزاريلا - زيتون</div></div><div class="price">20 د.ل</div></div>
+      <div class="item"><div><div class="name">بيتزا خضروات</div><div class="desc">صلصة طماطم - خضروات - موزاريلا - زيتون</div></div><div class="price">16 د.ل</div></div>
+      <div class="item"><div><div class="name">بيتزا فقاع</div><div class="desc">صلصة طماطم - فقاع - موزاريلا - زيتون</div></div><div class="price">16 د.ل</div></div>
+      <div class="item"><div><div class="name">بيتزا كبدة جمل</div><div class="desc">صلصة طماطم - كبدة جمل - موزاريلا - زيتون</div></div><div class="price">25 د.ل</div></div>
+
+      <div class="item"><div><div class="name">مقلوبة دجاج</div><div class="desc">جبنة شرائح - دجاج - موزاريلا</div></div><div class="price">15 د.ل</div></div>
+      <div class="item"><div><div class="name">مقلوبة كبدة دجاج</div><div class="desc">جبنة شرائح - كبدة دجاج - موزاريلا</div></div><div class="price">17 د.ل</div></div>
+      <div class="item"><div><div class="name">مقلوبة كبدة جمل</div><div class="desc">جبنة شرائح - كبدة جمل - موزاريلا</div></div><div class="price">18 د.ل</div></div>
     </div>
 
     <a class="back" href="index.html">⬅️ العودة</a>
