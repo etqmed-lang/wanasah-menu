@@ -1,48 +1,177 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>قائمة المقهى - ونسة</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
-    body{margin:0;font-family:'Cairo',sans-serif;background:#000;color:#d4af37}
-    .wrap{padding:18px;text-align:right}
-    .top{display:flex;gap:12px;align-items:center;justify-content:space-between}
-    img.logo{width:100px;border-radius:8px}
-    h2{margin:6px 0}
-    .list{margin-top:14px}
-    .item{background:rgba(212,175,55,0.06);border:1px solid rgba(212,175,55,0.2);padding:12px;border-radius:10px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center}
-    .item img{width:64px;height:64px;border-radius:8px;object-fit:cover;margin-left:12px}
-    .name{font-weight:700}
-    .price{color:#f7d774;font-weight:700}
-    .back{display:inline-block;margin-top:12px;background:#d4af37;color:#000;padding:8px 14px;border-radius:10px;text-decoration:none;font-weight:700}
-    footer{margin-top:18px;font-size:13px;opacity:0.85;text-align:center}
-  </style>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>قائمة المقهى - وناسة</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  background: #000;
+  color: #d4af37;
+}
+.wrap {
+  padding: 20px;
+  text-align: right;
+  max-width: 600px;
+  margin: auto;
+}
+h1, h2 {
+  color: #f7d774;
+  text-align: center;
+  margin-bottom: 6px;
+}
+h2 {
+  border-bottom: 1px solid rgba(212,175,55,0.4);
+  padding-bottom: 4px;
+  margin-top: 30px;
+}
+.list {
+  margin-top: 10px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed rgba(212,175,55,0.3);
+  padding: 6px 0;
+}
+.name {
+  font-weight: 700;
+}
+.price {
+  color: #f7d774;
+  font-weight: 700;
+}
+footer {
+  margin-top: 40px;
+  font-size: 13px;
+  opacity: 0.8;
+  text-align: center;
+}
+</style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="top">
-      <div>
-        <h2>☕ منيو المقهى</h2>
-        <p style="margin:0;color:#f1d67d">مشروبات ساخنة وباردة مميزة</p>
-      </div>
-      <img src="images/logo.jpg" alt="logo" class="logo" />
-    </div>
+<div class="wrap">
+  <h1>☕ كافيه وناسة</h1>
 
-    <div class="list">
-      <div class="item"><div><div class="name">قهوة تركية</div><div style="font-size:13px;color:#f1d67d">نكهة أصيلة</div></div><div><div class="price">7 د.ل</div><img src="images/coffee.svg" alt="قهوة"></div></div>
-      <div class="item"><div><div class="name">لاتيه</div><div style="font-size:13px;color:#f1d67d">قهوة بحليب ناعم</div></div><div><div class="price">10 د.ل</div><img src="images/latte.svg" alt="لاتيه"></div></div>
-      <div class="item"><div><div class="name">كابتشينو</div><div style="font-size:13px;color:#f1d67d">رغوة خفيفة</div></div><div><div class="price">9 د.ل</div><img src="images/capp.svg" alt="كابتشينو"></div></div>
-      <div class="item"><div><div class="name">ميلك شيك شوكولاتة</div><div style="font-size:13px;color:#f1d67d">كريمي ولذيذ</div></div><div><div class="price">12 د.ل</div><img src="images/milkshake.svg" alt="ميلك شيك"></div></div>
-    </div>
-
-    <a class="back" href="index.html">⬅️ العودة</a>
-    <a class="back" style="margin-left:10px" href="https://wa.me/218917620910">تواصل عبر واتساب</a>
-
-    <footer>
-      <p>© 2025 كافيه ومطعم ونسة - مصراتة</p>
-    </footer>
+  <h2>العصائر الطبيعية</h2>
+  <div class="list">
+    <div class="item"><div class="name">عصير مانجا</div><div class="price">10</div></div>
+    <div class="item"><div class="name">عصير كيوي</div><div class="price">12</div></div>
+    <div class="item"><div class="name">عصير كوكتيل</div><div class="price">12</div></div>
+    <div class="item"><div class="name">عصير فراولة</div><div class="price">10</div></div>
+    <div class="item"><div class="name">عصير ليمون بالنعناع</div><div class="price">10</div></div>
+    <div class="item"><div class="name">عصير خوخ</div><div class="price">10</div></div>
+    <div class="item"><div class="name">عصير كمثرى</div><div class="price">12</div></div>
+    <div class="item"><div class="name">عصير عنب</div><div class="price">15</div></div>
+    <div class="item"><div class="name">عصير برتقال</div><div class="price">15</div></div>
+    <div class="item"><div class="name">فروبي موز</div><div class="price">10</div></div>
+    <div class="item"><div class="name">فروبي فراولة</div><div class="price">10</div></div>
+    <div class="item"><div class="name">موز باللوز</div><div class="price">10</div></div>
+    <div class="item"><div class="name">أفوكادو عادي</div><div class="price">12</div></div>
+    <div class="item"><div class="name">أفوكادو كامل</div><div class="price">16</div></div>
+    <div class="item"><div class="name">أفوكادو بالفواكه</div><div class="price">18</div></div>
+    <div class="item"><div class="name">أفوكادو وناسة</div><div class="price">25</div></div>
   </div>
+
+  <h2>ميلك شيك</h2>
+  <div class="list">
+    <div class="item"><div class="name">ميلك شيك نوتيلا</div><div class="price">10</div></div>
+    <div class="item"><div class="name">ميلك شيك لوتس</div><div class="price">10</div></div>
+    <div class="item"><div class="name">ميلك شيك مانجا</div><div class="price">12</div></div>
+    <div class="item"><div class="name">ميلك شيك فراولة</div><div class="price">12</div></div>
+    <div class="item"><div class="name">ميلك شيك أوريو</div><div class="price">10</div></div>
+    <div class="item"><div class="name">ميلك شيك بندق</div><div class="price">10</div></div>
+    <div class="item"><div class="name">ميلك شيك فستق</div><div class="price">10</div></div>
+  </div>
+
+  <h2>مشروبات باردة</h2>
+  <div class="list">
+    <div class="item"><div class="name">مشروب غازي</div><div class="price">3</div></div>
+    <div class="item"><div class="name">عصير تفاح</div><div class="price">8</div></div>
+    <div class="item"><div class="name">عصير بلح</div><div class="price">10</div></div>
+    <div class="item"><div class="name">عصير لوز</div><div class="price">5</div></div>
+    <div class="item"><div class="name">عصير برافو</div><div class="price">5</div></div>
+    <div class="item"><div class="name">مشروب فريز</div><div class="price">5</div></div>
+    <div class="item"><div class="name">مشروب لوز</div><div class="price">3</div></div>
+    <div class="item"><div class="name">شوكلاطة دوبلا</div><div class="price">5</div></div>
+    <div class="item"><div class="name">شوكلاطة سنيكرز</div><div class="price">4</div></div>
+    <div class="item"><div class="name">شوكلاطة باونتي</div><div class="price">5</div></div>
+    <div class="item"><div class="name">شوكلاطة مارس</div><div class="price">5</div></div>
+    <div class="item"><div class="name">شوكلاطة جردينا</div><div class="price">5</div></div>
+    <div class="item"><div class="name">شوكلاطة ميلكا</div><div class="price">8</div></div>
+  </div>
+
+  <h2>مشروبات ساخنة</h2>
+  <div class="list">
+    <div class="item"><div class="name">نسكافيه عادية</div><div class="price">3</div></div>
+    <div class="item"><div class="name">نص نص عادية</div><div class="price">3</div></div>
+    <div class="item"><div class="name">كريمة عادية</div><div class="price">3</div></div>
+    <div class="item"><div class="name">سبيسيال عادية</div><div class="price">4</div></div>
+    <div class="item"><div class="name">نسكافيه دبل</div><div class="price">5</div></div>
+    <div class="item"><div class="name">نص نص دبل</div><div class="price">5</div></div>
+    <div class="item"><div class="name">كريمة دبل</div><div class="price">5</div></div>
+    <div class="item"><div class="name">كافي لاتي عادية</div><div class="price">5</div></div>
+    <div class="item"><div class="name">خلطة عادية</div><div class="price">4</div></div>
+    <div class="item"><div class="name">خلطة كاملة</div><div class="price">7</div></div>
+    <div class="item"><div class="name">شاي عادي</div><div class="price">2</div></div>
+    <div class="item"><div class="name">براد شاي عادي</div><div class="price">10</div></div>
+    <div class="item"><div class="name">براد شاي باللوز</div><div class="price">30</div></div>
+    <div class="item"><div class="name">قهوة عربية صافية</div><div class="price">5</div></div>
+    <div class="item"><div class="name">كافي أمريكانو عادية</div><div class="price">4</div></div>
+    <div class="item"><div class="name">شاي مغربي</div><div class="price">4</div></div>
+    <div class="item"><div class="name">شاي باللوز</div><div class="price">6</div></div>
+    <div class="item"><div class="name">ايس كوفي</div><div class="price">7</div></div>
+    <div class="item"><div class="name">هوت شوكلت</div><div class="price">8</div></div>
+  </div>
+
+  <h2>كريب</h2>
+  <div class="list">
+    <div class="item"><div class="name">كريب نوتيلا</div><div class="price">12</div></div>
+    <div class="item"><div class="name">كريب نوتيلا مكسرات عسل</div><div class="price">20</div></div>
+    <div class="item"><div class="name">كريب نوتيلا وموز</div><div class="price">15</div></div>
+    <div class="item"><div class="name">كريب نوتيلا ومكسرات وموز</div><div class="price">17</div></div>
+    <div class="item"><div class="name">كريب نوتيلا أوريو</div><div class="price">17</div></div>
+    <div class="item"><div class="name">كريب نوتيلا لوتس</div><div class="price">15</div></div>
+    <div class="item"><div class="name">كريب نوتيلا وميلكا</div><div class="price">20</div></div>
+    <div class="item"><div class="name">كريب نوتيلا ومكسرات وفواكه</div><div class="price">25</div></div>
+    <div class="item"><div class="name">كريب نوتيلا وفستق وعسل</div><div class="price">19</div></div>
+    <div class="item"><div class="name">كريب حار</div><div class="price">15</div></div>
+  </div>
+
+  <h2>بريوش</h2>
+  <div class="list">
+    <div class="item"><div class="name">بريوش نوتيلا</div><div class="price">6</div></div>
+    <div class="item"><div class="name">بريوش نوتيلا ومكسرات وعسل</div><div class="price">8</div></div>
+    <div class="item"><div class="name">بريوش أوريو</div><div class="price">6</div></div>
+    <div class="item"><div class="name">بريوش فستق</div><div class="price">7</div></div>
+    <div class="item"><div class="name">بريوش لوتس</div><div class="price">6</div></div>
+  </div>
+
+  <h2>أطباق وناسة</h2>
+  <div class="list">
+    <div class="item"><div class="name">صحن كاجو</div><div class="price">5</div></div>
+    <div class="item"><div class="name">صحن لوز</div><div class="price">3</div></div>
+    <div class="item"><div class="name">سنترا نوتيلا وعسل</div><div class="price">15</div></div>
+    <div class="item"><div class="name">سنترا لوتس</div><div class="price">10</div></div>
+    <div class="item"><div class="name">سنترا أوريو</div><div class="price">10</div></div>
+    <div class="item"><div class="name">سنترا نوتيلا</div><div class="price">10</div></div>
+    <div class="item"><div class="name">فخفخينة</div><div class="price">15</div></div>
+    <div class="item"><div class="name">سحلب عادي</div><div class="price">10</div></div>
+    <div class="item"><div class="name">سحلب بالمكسرات</div><div class="price">12</div></div>
+    <div class="item"><div class="name">فطاحة</div><div class="price">6</div></div>
+    <div class="item"><div class="name">تست تن جبنة هريسة</div><div class="price">5</div></div>
+    <div class="item"><div class="name">تست تن جبنة هريسة دحي</div><div class="price">6</div></div>
+    <div class="item"><div class="name">تست جبنة</div><div class="price">3</div></div>
+    <div class="item"><div class="name">تست تن</div><div class="price">3</div></div>
+    <div class="item"><div class="name">صحن فواكه</div><div class="price">50</div></div>
+  </div>
+
+  <footer>
+    © 2025 كافيه وناسة - مصراتة
+  </footer>
+</div>
 </body>
 </html>
